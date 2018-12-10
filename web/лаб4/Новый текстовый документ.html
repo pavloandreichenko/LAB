@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div>Bookmarks:</div>
+    <ul id="ForBookmarks">
+    </ul>
+    <div>
+      <div class="line">
+        <button type="button" name="button" onclick="AddLisner();">Add</button>
+      </div>
+      <div class="line">
+        <button type="button" name="button" onclick="DeleteLisner();">Delete</button>
+      </div>
+    <div>
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+      <script type="text/javascript">
+      	var a=1
+      	class Bookmarks {
+    constructor(id, name, description, link) {
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.link = link;
+        this.str = "<li id='" + this.id + "'><a href='" + this.link + "'><b>" + this.name + ": </b>" + this.description + "</a></li>";
+          $("#ForBookmarks").html(this.str);
+}
+function AddLisner () {
+  let bookmark = new Bookmarks (prompt("Id:"),prompt("Name:"),prompt("Description:"),prompt("Link:"));
+}
+function DeleteLisner () {
+  var length = $("#ForBookmarks li").length;
+  $("#ForBookmarks li:nth-child(" + length + ")").html("");
+}
+      </script>
+  </body>
+</html>
