@@ -1,0 +1,31 @@
+1 "GoldPeople" M.Jokai 1 classic 25 12;
+
+2 "500RecipeofCanning" S.Romanova 2 cooking 254 8;
+
+3 "500DishesAreDeliciousAndCheap" D.Tsvek 2 cooking 651 15;
+
+4 "300RecipeofPancakes" D.Tsvek 2 cooking 88 11;
+
+5 "DeadYach" Ch.Williams 3 detective 54 8;
+
+6 "OntheOtherSideoftheLaw" O.Strange 3 detective 100 9;
+
+7 "MyBrother,MyEnemy" M.Willson 4 adventure 451 8.5;
+
+8 "TheGhostoftheUniverse" A.Borodenkov 5 fantasy 12 6;
+
+9 "Rama2" A.Clark,Dj.Li 5 fantasy 69 7.5;
+
+10 "LookingforRachelWallace" R.Parker 3 detective 421 9.6;
+
+11 "BisAtTheEdge" M.Serova 4 adventure 102 5;
+
+12 "DeathRelay" J.deVille 3 detective 200 6;
+
+13 "SubmarineThatFellFromTheSky" D.Sobol 5 fantasy 25 8;
+
+14 "Predator" J.Thomas 4 adventure 123 7;
+
+15 "WaitingForTheApocalypse" Ch.Abdulayev 4 adventure 89 5;
+
+16 "NovelsAndStories" L.Tolstoy 1 classic 20 25;
